@@ -12,7 +12,7 @@ AutoCarry.PluginMenu:addParam("condemnMixedMode", "Condemn In Mixed Mode", SCRIP
 AutoCarry.PluginMenu:addParam("pushDistance", "Push Distance", SCRIPT_PARAM_SLICE, 450, 0, 450, 0)
 
 function PluginOnLoad()
-	AutoCarry.SkillsCrosshair.range = 650
+	AutoCarry.SkillsCrosshair.range = 550
 end
 
 function PluginOnTick()
